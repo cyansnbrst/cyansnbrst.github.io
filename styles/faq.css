@@ -52,5 +52,7 @@
 
     .tabs-link {
         width: 100%;
+        writing-mode: vertical-rl;
+        max-height: 100px;
     }
 }

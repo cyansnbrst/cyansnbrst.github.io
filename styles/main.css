@@ -258,4 +258,13 @@ a[href^="tel"]::before {
         transform: translateY(-20px) rotate(-45deg);
         transition: 0.5s;
     }
+
+    footer {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        padding: 20px 30px;
+    }
+
+    .about-us-footer div {
+        padding-right: 25px;
+    }
 }
